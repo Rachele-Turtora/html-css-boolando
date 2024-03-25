@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Arial", sans-serif;
 }
 
-/* LAYOUT CLASSES */
+/* UTILITY CLASSES */
 
 .text-right{
     text-align: right;
@@ -18,9 +19,15 @@
     justify-content: center;
 }
 
+.justify-right{
+    justify-content: right;
+}
+
 .align-center{
     align-items: center;
 }
+
+/* LAYOUT CLASSES */
 
 .container{
     width: 1200px;
@@ -28,7 +35,7 @@
 }
 
 #container{
-    padding-top: 150px;
+    padding: 100px 0;
 }
 
 .row{
@@ -39,6 +46,14 @@
 .col-33{
     margin: 10px;
     width: calc(100% / 3 - 20px);
+}
+
+.col-85{
+    width: 85%;
+}
+
+.col-15{
+    width: 15%;
 }
 
 /* END LAYOUT CLASSES */
@@ -80,7 +95,7 @@ img{
 
 h3{
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .new-price{
@@ -125,15 +140,26 @@ ul li{
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
-    padding: 0 10px;
 }
 
-.list{
-    line-height: 100px;
+.header-list ul li{
+    font-size: 20px;
+    padding: 0 10px;
 }
 
 .logo{
     width: 40%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-list ul li{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
