@@ -11,27 +11,12 @@
     text-align: right;
 }
 
-.d-flex{
-    display: flex;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-.justify-right{
-    justify-content: right;
-}
-
-.align-center{
-    align-items: center;
-}
-
 /* LAYOUT CLASSES */
 
 .container{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 #container{
@@ -131,9 +116,10 @@ h3{
 header{
     position: fixed;
     width: 100%;
-    background-color: orange;
+    background-color: rgb(255, 94, 0);
     color: white;
     z-index: 1;
+    padding-top: 10px;
 }
 
 ul li{
@@ -149,6 +135,7 @@ ul li{
 
 .logo{
     width: 40%;
+    margin: 0 auto;
 }
 
 footer{
@@ -162,4 +149,5 @@ footer{
     padding-top: 10px;
     padding-right: 10px;
 }
+
 
