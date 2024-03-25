@@ -6,9 +6,26 @@
 
 /* LAYOUT CLASSES */
 
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-top: 150px;
 }
 
 .row{
@@ -27,7 +44,7 @@
     position: relative;
 }
 
-.content img{
+img{
     width: 100%;
 }
 
@@ -92,3 +109,28 @@ h3{
 .heart:hover{
     color: red;
 }
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    z-index: 1;
+}
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.list{
+    line-height: 100px;
+}
+
+.logo{
+    width: 25%;
+}
+
