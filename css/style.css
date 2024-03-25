@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT CLASSES */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+/* END LAYOUT CLASSES */
+
+.content{
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+}
+
