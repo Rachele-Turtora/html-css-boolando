@@ -77,3 +77,15 @@ h3{
     left: 0;
 }
 
+.hidden-image{
+    display: none;
+}
+
+.content:hover .main-image{
+    display: none;
+}
+
+.content:hover .hidden-image{
+    display: block;
+}
+
